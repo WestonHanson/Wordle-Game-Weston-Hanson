@@ -10,6 +10,12 @@
     The program runs like a normal Wordle game would. The user has six guesses to guess the correct word. Each time the user guesses a word that is found in the word list the board will update with that word. Then the program prints out the board, coloring each letter that is in the right place, is in the word but not the right place, or (and this is my twist on it) is in multiple places in the word.
     The user can play as many times as they want until they say 'no' to the prompt.
 
+## Screenshots of the game:
+    ![image](https://github.com/WestonHanson/Wordle-Game-Weston-Hanson/assets/121981035/ffb3af8f-483a-4512-be62-a4cdd0f5e764)
+    ![image](https://github.com/WestonHanson/Wordle-Game-Weston-Hanson/assets/121981035/00f83542-7ec0-4607-9102-fddf65c65c72)
+    ![image](https://github.com/WestonHanson/Wordle-Game-Weston-Hanson/assets/121981035/edc95303-3117-48d1-9807-9f6a7dbd1296)
+
+
 ## What makes it harder than a tic-tac-toe game
 
     This project has a lot of string manipulation that a tic-tac-toe game just does not have. I also implement a binary search to search through a list of words. The way I get that list is by pulling it from a file and then separating it into a vector. The logic on Wordle is also fairly more difficult than a tic-tac-toe game is.
