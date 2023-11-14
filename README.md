@@ -5,7 +5,7 @@
     To program a game that pushed me more than a simple tick-tac-toe game.
     This is a Wordle game, so it is a direct copy of the popular game Wordle. I wanted to make a copy but put my own twist on it.
 
-## Discription:
+## Discription
 
     The program runs like a normal Wordle game would. The user has six guesses to guess the correct word. Each time the user guesses a word that is found in the word list the board will update with that word. Then the program prints out the board, coloring each letter that is in the right place, is in the word but not the right place, or (and this is my twist on it) is in multiple places in the word.
     The user can play as many times as they want until they say 'no' to the prompt.
