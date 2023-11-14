@@ -27,6 +27,11 @@ fn main(){
     
         if user_play_again.trim().to_lowercase().as_str() == "yes" {
             println!("");
+            println!("Rules:");
+            println!("\tUse 5 letter words, but not every word is in the list.");
+            println!("\t{}green {} means the letter is in the correct spot.", color::Bg(color::Green), color::Bg(color::Reset));
+            println!("\t{}yellow {} means the letter is in the word but not in the correct spot.", color::Bg(color::Yellow), color::Bg(color::Reset));
+            println!("\t{}blue {} mean the letter is in the word more than once.\n", color::Bg(color::Blue), color::Bg(color::Reset));
         } else if user_play_again.trim().to_lowercase().as_str() != "yes" && user_play_again.trim().to_lowercase().as_str() != "no"{
             println!("\nPlease try again.\n");
             continue; 
