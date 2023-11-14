@@ -1,6 +1,6 @@
 # Wordle-Game-Weston-Hanson
 
-## Purpose:
+## Purpose
 
     To program a game that pushed me more than a simple tick-tac-toe game.
     This is a Wordle game, so it is a direct copy of the popular game Wordle. I wanted to make a copy but put my own twist on it.
