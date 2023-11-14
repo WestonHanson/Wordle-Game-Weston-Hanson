@@ -14,9 +14,12 @@
 
     This project has a lot of string manipulation that a tic-tac-toe game just does not have. I also implement a binary search to search through a list of words. The way I get that list is by pulling it from a file and then separating it into a vector. The logic on Wordle is also fairly more difficult than a tic-tac-toe game is.
 
+#Challenges
+    The biggest challenge was working around the language constraints. Rust has very strict type-checking and only certain functions work on each type. For example, I originally had an array of &str for my Wordle board, but when I got to the fill_board() function I ran into many different problems like borrowing errors and different type errors. So, I had to switch my board to String, and that made me have to update my print_board() function. That did not solve the problem altogether but it made it easier. The project itself had some difficult logic issues, but for the most part, it was straight forward, but it was the language constraints that prevented me from moving on a lot of the time. 
+
 ## How to run the project
 
-    You need to move into the src file, then run 'cargo run' in the terminal. Retrieving the file will be done automatically by the program.
+    You need to move into the src file, then run `cargo run` in the terminal. Retrieving the file will be done automatically by the program.
 
 ## Credit
 
