@@ -11,8 +11,8 @@
     The user can play as many times as they want until they say 'no' to the prompt.
 
 ## Screenshots of the game:
-    ![image](https://github.com/WestonHanson/Wordle-Game-Weston-Hanson/assets/121981035/ffb3af8f-483a-4512-be62-a4cdd0f5e764)
-    ![image](https://github.com/WestonHanson/Wordle-Game-Weston-Hanson/assets/121981035/00f83542-7ec0-4607-9102-fddf65c65c72)
+    ![Alt text](https://github.com/WestonHanson/Wordle-Game-Weston-Hanson/assets/121981035/ffb3af8f-483a-4512-be62-a4cdd0f5e764)
+    ![Settings Window](https://github.com/WestonHanson/Wordle-Game-Weston-Hanson/assets/121981035/00f83542-7ec0-4607-9102-fddf65c65c72)
     ![image](https://github.com/WestonHanson/Wordle-Game-Weston-Hanson/assets/121981035/edc95303-3117-48d1-9807-9f6a7dbd1296)
 
 
