@@ -195,14 +195,3 @@ fn fill_board(wordle_board: &mut [[String; 5]; 6], user_input: &str, random_word
     }
 }
 
-
-
-
-// let word_in_list = &word_list[0];
-// let mut second_char = word_in_list.chars().nth(counter).unwrap_or('?');
-// println!("{}", second_char);
-// counter += 1;
-// second_char = word_in_list.chars().nth(counter).unwrap_or('?');
-// println!("{}", second_char);
-// let list_letter = word_in_list.chars().nth(counter).map(|c| c.to_ascii_lowercase());
-// let user_letter = user_input.chars().nth(counter).map(|c| c.to_ascii_lowercase());
